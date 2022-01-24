@@ -138,7 +138,7 @@ func getLogConfig() string {
         <outputs formatid="main">
             %s
             <filter levels="info,critical,error,warn">
-                <file path="log/cron.log" />
+                <console />
             </filter>
         </outputs>
         <formats>
